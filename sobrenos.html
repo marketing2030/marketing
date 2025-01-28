@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre Nós</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      height: 100vh;
+      background: linear-gradient(120deg, #1e90ff, #00bfff, #4682b4);
+      background-size: 400% 400%;
+      animation: gradientBG 10s ease infinite;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .container {
+      width: 100vw; /* Largura do container para a tela inteira */
+      max-width: 100%; /* Impede que o container ultrapasse a tela */
+      margin: 0 auto;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.2); /* Fundo translúcido opcional */
+      border-radius: 8px;
+      box-sizing: border-box; /* Certifica-se de que o padding seja incluído na largura */
+    }
+
+    .section-title {
+      font-size: 28px;
+      margin-bottom: 40px;
+      color: #fff;
+      position: relative;
+    }
+
+    .back-btn {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .back-btn:hover {
+      background-color: #45a049;
+    }
+
+    .team-member {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 40px;
+      color: #fff;
+    }
+
+    .team-member img {
+      border-radius: 50%;
+      width: 120px; /* Tamanho da imagem ajustado para celular */
+      height: 120px;
+      margin-bottom: 20px;
+    }
+
+    .team-member h3 {
+      font-size: 18px; /* Fonte ajustada para celular */
+    }
+
+    .team-member p {
+      font-size: 14px; /* Fonte ajustada para celular */
+      max-width: 100%; /* Garantindo que o texto ocupe toda a largura disponível */
+      text-align: justify;
+      margin-top: 20px;
+    }
+
+    .back-button {
+      display: block;
+      margin: 20px auto;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .back-button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Conteúdo Principal -->
+<div class="container">
+  <!-- Botão de Voltar Posicionado à Esquerda -->
+  <h1 class="section-title">
+    <a href="inicio.html" class="back-btn">Voltar</a>
+    Sobre Nós
+  </h1>
+
+  <!-- Gabriel Nelson -->
+  <div class="team-member">
+    <img src="img/image.png" alt="Gabriel Nelson - Criador">
+    <h3>Gabriel Nelson - Programador</h3>
+    <p>
+      Gabriel Nelson é o criador por trás deste projeto inovador, com uma paixão por design de sites, 
+      animações e soluções tecnológicas. Com um olhar visionário e habilidades excepcionais, ele lidera a criação 
+      e o desenvolvimento de novas ideias e funcionalidades, sempre buscando oferecer a melhor experiência para os 
+      usuários. Seu trabalho é dedicado a transformar ideias em realidades digitais impressionantes 
+    </p>
+   </div>
+  </div>
+ </body>
+</html>
